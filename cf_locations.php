@@ -8,7 +8,7 @@ if ($user_country_code == "CA"){echo 'Connected via Toronto, Ontario, Canada';} 
 if ($user_country_code == "NL"){echo 'Connected via Amsterdam, Netherlands';} else 
 if ($user_country_code == "DE"){echo 'Connected via Frankfurt, Germany';} else 
 if ($user_country_code == "ES"){echo 'Connected via Madrid, Spain';} else 
-if ($user_country_code == "SE"){echo 'Connected via Stockholm, Sweden ';} else 
+if ($user_country_code == "SE"){echo 'Connected via Stockholm, Sweden';} else 
 if ($user_country_code == "IT"){echo 'Connected via Milan, Italy';} else
 if ($user_country_code == "GB"){echo 'Connected via London, England';} else
 if ($user_country_code == "FR"){echo 'Connected via Paris, France';} else
