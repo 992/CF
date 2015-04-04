@@ -37,6 +37,6 @@ if ($user_country_code == "AU"){echo 'Connected via Sydney, New South Wales, Aus
 // Africa (1 location)
 if ($user_country_code == "ZA"){echo 'Connected via Johannesburg, South Africa';}
 
-else {// Show Nothing}
+else {echo 'Connected via Unknown Location;}
 
 ?>
