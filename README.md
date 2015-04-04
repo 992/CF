@@ -1,2 +1,2 @@
-# Connected via "Nearest CloudFlare Data Centre"
+# CCF
 becuz cloudflare is such a dick
