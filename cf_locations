@@ -1,0 +1,46 @@
+# North America (10 locations)
+EWR - Newark, New Jersey, USA 
+IAD - Ashburn, Virginia, USA 
+ATL - Atlanta, Georgia, USA 
+MIA - Miami, Florida, USA 
+DFW - Dallas, Texas, USA 
+ORD - Chicago, Illinois, USA 
+SEA - Seattle, Washington, USA 
+SJC - San Jose, California, USA 
+LAX - Los Angeles, California, USA 
+YYZ - Toronto, Ontario, Canada
+
+# Europe (11 locations)
+AMS - Amsterdam, Netherlands
+FRA - Frankfurt, Germany 
+MAD - Madrid, Spain 
+ARN - Stockholm, Sweden 
+MXP - Milan, Italy 
+LHR - London, England 
+CDG - Paris, France 
+VIE - Vienna, Austria 
+WAW - Warsaw, Poland 
+PRG - Prague, Czech Republic
+DUS - Düsseldorf, German
+
+# Asia (4 locations)
+NRT - Tokyo, Japan
+ICN - Seoul, South Korea 
+HKG - Hong Kong, Hong Kong 
+SIN - Singapore, Singapo
+
+# South America (5 locations)
+SCL - Valparaíso, Chile 
+GRU - São Paulo, Brazil 
+MDE - Medellín, Colombia 
+LIM - Lima, Peru 
+EZE - Buenos Aires, Argentin
+
+# Oceania (2 locations)
+AKL - Auckland, New Zealand
+SYD - Sydney, New South Wales, Australia
+
+# Africa (1 location)
+JNB - Johannesburg, South Africa
+
+# 33 Cloudflare Data Centre Locations
