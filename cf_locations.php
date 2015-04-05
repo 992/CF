@@ -2,13 +2,6 @@
 $user_country_code = $_SERVER["HTTP_CF_IPCOUNTRY"]; 
 
 // North America (10 Locations)
-if ($user_country_code == "NJ"){echo 'Connected via Newark, New Jersey, USA';} else 
-if ($user_country_code == "AV"){echo 'Connected via Ashburn, Virginia, USA';} else 
-if ($user_country_code == "AG"){echo 'Connected via Atlanta, Georgia, USA';} else 
-if ($user_country_code == "FL"){echo 'Connected via Miami, Florida, USA';} else 
-if ($user_country_code == "TX"){echo 'Connected via Dallas, Texas, USA';} else 
-if ($user_country_code == "IL"){echo 'Connected via Chicago, Illinois, USA';} else 
-if ($user_country_code == "WA"){echo 'Connected via Seattle, Washington, USA';} else 
 if ($user_country_code == "CA"){echo 'Connected via Toronto, Ontario, Canada';} else 
 
 // Europe (11 locations)
