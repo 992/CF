@@ -1,11 +1,11 @@
 <?php
 $user_country_code = $_SERVER["HTTP_CF_IPCOUNTRY"]; 
 
-// North America (10 Locations)
+// North America (2 CloudFlare Data Centres, 2 Locations)
 if ($user_country_code == "US"){echo 'Connected via United States of America';} else 
 if ($user_country_code == "CA"){echo 'Connected via Toronto, Ontario, Canada';} else 
 
-// Europe (11 CloudFalre Data Centres, 18 locations)
+// Europe (11 CloudFalre Data Centres, 21 locations)
 if ($user_country_code == "NL"){echo 'Connected via Amsterdam, Netherlands';} else 
 if ($user_country_code == "DE"){echo 'Connected via Frankfurt, Germany';} else 
 if ($user_country_code == "ES"){echo 'Connected via Madrid, Spain';} else 
@@ -29,26 +29,29 @@ if ($user_country_code == "HU"){echo 'Connected via Prague, Czech Republic';} el
 if ($user_country_code == "IS"){echo 'Connected via Amsterdam, Netherlands';} else 
 
 
-// Asia (4 CloudFlare Data Centres, 6 Locations)
+// Asia (4 CloudFlare Data Centres, 9 Locations)
 if ($user_country_code == "JP"){echo 'Connected via Tokyo, Japan';} else
 if ($user_country_code == "KR"){echo 'Connected via Seoul, South Korea';} else
 if ($user_country_code == "HK"){echo 'Connected via Hong Kong, Hong Kong';} else
 if ($user_country_code == "SG"){echo 'Connected via Singapore, Singapo';} else
 if ($user_country_code == "PK"){echo 'Connected via Singapore, Singapo';} else
 if ($user_country_code == "IN"){echo 'Connected via Hong Kong, Hong Kong';} else
+if ($user_country_code == "AE"){echo 'Connected via Singapore, Singapo';} else
+if ($user_country_code == "SA"){echo 'Connected via Frankfurt, Germany';} else
+if ($user_country_code == "LK"){echo 'Connected via Singapore, Singapo';} else
 
-// South America (5 locations)
+// South America (5 CloudFlare Data Centres, 5 locations)
 if ($user_country_code == "CL"){echo 'Connected via Valparaíso, Chile';} else
 if ($user_country_code == "BR"){echo 'Connected via São Paulo, Brazil';} else
 if ($user_country_code == "CO"){echo 'Connected via Medellín, Colombia';} else
 if ($user_country_code == "PE"){echo 'Connected via Lima, Peru';} else
 if ($user_country_code == "RA"){echo 'Connected via Buenos Aires, Argentin';} else
 
-// Oceania (2 locations)
+// Oceania (2 CloudFlare Data Centres, 2 locations)
 if ($user_country_code == "NZ"){echo 'Connected via Auckland, New Zealand';} else
 if ($user_country_code == "AU"){echo 'Connected via Sydney, New South Wales, Australia';} else
 
-// Africa (1 location)
+// Africa (1 CloudFlare Data Centres, 1 location)
 if ($user_country_code == "ZA"){echo 'Connected via Johannesburg, South Africa';}
 
 else {echo 'Connected via Unknown Location;}
