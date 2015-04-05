@@ -18,11 +18,13 @@ if ($user_country_code == "PL"){echo 'Connected via Warsaw, Poland';} else
 if ($user_country_code == "CZ"){echo 'Connected via Prague, Czech Republic';} else
 if ($user_country_code == "DD"){echo 'Connected via Düsseldorf, German';} else
 
-// Asia (4 locations)
+// Asia (4 CloudFlare Data Centres 6 Locations)
 if ($user_country_code == "JP"){echo 'Connected via Tokyo, Japan';} else
 if ($user_country_code == "KR"){echo 'Connected via Seoul, South Korea';} else
 if ($user_country_code == "HK"){echo 'Connected via Hong Kong, Hong Kong';} else
 if ($user_country_code == "SG"){echo 'Connected via Singapore, Singapo';} else
+if ($user_country_code == "PK"){echo 'Connected via Singapore, Singapo';} else
+if ($user_country_code == "IN"){echo 'Connected via Hong Kong, Hong Kong';} else
 
 // South America (5 locations)
 if ($user_country_code == "CL"){echo 'Connected via Valparaíso, Chile';} else
