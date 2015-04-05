@@ -2,6 +2,7 @@
 $user_country_code = $_SERVER["HTTP_CF_IPCOUNTRY"]; 
 
 // North America (10 Locations)
+if ($user_country_code == "US"){echo 'Connected via United States of America';} else 
 if ($user_country_code == "CA"){echo 'Connected via Toronto, Ontario, Canada';} else 
 
 // Europe (11 locations)
@@ -14,7 +15,7 @@ if ($user_country_code == "GB"){echo 'Connected via London, England';} else
 if ($user_country_code == "FR"){echo 'Connected via Paris, France';} else
 if ($user_country_code == "AT"){echo 'Connected via Vienna, Austria';} else
 if ($user_country_code == "PL"){echo 'Connected via Warsaw, Poland';} else
-if ($user_country_code == "CZ"){echo 'Connected via  Prague, Czech Republic';} else
+if ($user_country_code == "CZ"){echo 'Connected via Prague, Czech Republic';} else
 if ($user_country_code == "DD"){echo 'Connected via Düsseldorf, German';} else
 
 // Asia (4 locations)
@@ -38,5 +39,4 @@ if ($user_country_code == "AU"){echo 'Connected via Sydney, New South Wales, Aus
 if ($user_country_code == "ZA"){echo 'Connected via Johannesburg, South Africa';}
 
 else {echo 'Connected via Unknown Location;}
-
 ?>
