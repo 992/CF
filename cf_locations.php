@@ -17,6 +17,7 @@ if ($user_country_code == "RO"){echo 'Connected via London, England';} else
 if ($user_country_code == "FR"){echo 'Connected via Paris, France';} else
 if ($user_country_code == "AT"){echo 'Connected via Vienna, Austria';} else
 if ($user_country_code == "PL"){echo 'Connected via Warsaw, Poland';} else
+if ($user_country_code == "TR"){echo 'Connected via London, England';} else
 if ($user_country_code == "CZ"){echo 'Connected via Prague, Czech Republic';} else
 if ($user_country_code == "DD"){echo 'Connected via Düsseldorf, Germany';} else
 if ($user_country_code == "UA"){echo 'Connected via Frankfurt, Germany';} else
