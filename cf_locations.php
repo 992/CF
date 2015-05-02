@@ -52,7 +52,17 @@ if ($user_country_code == "NZ"){echo 'Connected via Auckland, New Zealand';} els
 if ($user_country_code == "AU"){echo 'Connected via Sydney, New South Wales, Australia';} else
 
 // Africa (1 CloudFlare Data Centres, 1 location)
-if ($user_country_code == "ZA"){echo 'Connected via Johannesburg, South Africa';}
+if ($user_country_code == "ZA"){echo 'Connected via Johannesburg, South Africa';} else
 
-else {echo 'Connected via Unknown Location';}
+$randomcflocation = array(
+        1 => "Connected via",
+        2 => "Connected via",
+        3 => "Connected via",
+        4 => "Connected via",
+);
+
+$random = rand(1, count($randomcflocation));
+$rcfl = $randomcflocation[$random];
+
+echo $rcfl;
 ?>
