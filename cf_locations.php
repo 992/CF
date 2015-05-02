@@ -54,11 +54,12 @@ if ($user_country_code == "AU"){echo 'Connected via Sydney, New South Wales, Aus
 // Africa (1 CloudFlare Data Centres, 1 location)
 if ($user_country_code == "ZA"){echo 'Connected via Johannesburg, South Africa';} else
 
+// Input random CloudFlare locations, when the client refreshes the page
 $randomcflocation = array(
-        1 => "Connected via",
-        2 => "Connected via",
-        3 => "Connected via",
-        4 => "Connected via",
+        1 => "Connected via Oxygen's Ass",
+        2 => "Connected via World War III",
+        3 => "Connected via Hitler's Dad",
+        4 => "Connected via Kekko/Zero's Brain",
 );
 
 $random = rand(1, count($randomcflocation));
