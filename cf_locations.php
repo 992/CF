@@ -61,6 +61,7 @@ $randomcflocation = array(
         3 => "Connected via",
         4 => "Connected via",
 );
+
 $random = rand(1, count($randomcflocation));
 $rcfl = $randomcflocation[$random];
 echo $rcfl;
